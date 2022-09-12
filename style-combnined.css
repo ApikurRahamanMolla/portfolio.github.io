@@ -1,0 +1,515 @@
+*{
+    padding: 0;
+    margin: 0;
+
+
+}
+
+
+.folio{
+    color: gold;
+    
+}
+.portfoliotxt{
+    display: flex;
+    font-size: 350%;
+    color: rgb(0, 255, 200);
+    margin-left: 15px;
+
+}
+header{
+    background-color: rgb(18, 20, 39);
+}
+.navbar{
+    color: white;
+    display: flex;
+font-family: 'Roboto', sans-serif;
+}
+
+.split{
+    width: 45vw;
+}
+.contact-me{
+    height: 40px;
+    width: 95px;
+    border-radius: 20px;
+    background-color: rgba(0,136, 169, 1);
+    font-size:15px ;
+   border: 1px solid white;
+   margin-top: 5px;
+   margin-right: 25px;
+    
+}
+.contact-me:hover{
+    background-color: rgb(250, 255, 253);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.navcontent{
+    display: flex;
+  
+}
+ul{
+    list-style: none;
+}
+.navigation{
+    display: flex;
+
+   font-size: 21px;
+
+}
+.items:hover{
+
+            background-color: rgb(75, 68, 58);
+            transition: all 0.5s;
+}
+.items{
+    padding: 15px;
+
+
+}
+
+/* image part */
+  img{
+      height: 50vw;
+      width: 98.7vw;
+  }
+  .hori1{
+    padding: 5px;
+    margin-top: 1PX;margin-bottom: 1px;
+    
+    background: linear-gradient(to top, #9966ff 8%, #ff99cc 100%);
+    
+   }
+
+
+   /* ABOUT ME AND IMAGE LOCATION */
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Roboto:wght@300&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+
+      .aboutme{
+                   padding: 100px 0;
+      }
+       
+
+       .aboutme{
+                    
+                       font-family: 'Poppins', sans-serif;
+                       
+       }
+       .aboutme .title{
+           position: relative;
+           font-family: 'Ubuntu',sans-serif;
+           text-align: center;
+           font-size: 50px;
+           font-weight: 500;
+           margin-bottom: 60px;
+           padding-bottom: 20px;
+          
+
+       }
+       .aboutme .title::before{
+           content: "";
+           position:absolute;
+           height: 3px;
+           width: 180px;
+           bottom: 0px;
+           left: 50%;
+           background-color: #111;
+           transform:translateX(-50%);
+       
+       }
+       .aboutme .title::after{
+           content: "who I am";
+           font-size: 20px;
+           color: crimson;
+           position:absolute;
+           /* height: 3px;
+           width: 180px; */
+           bottom: -7px;
+           left: 50%;
+           background-color: #fff;
+           transform:translateX(-50%);
+       
+       }
+       .aboutme .max-width .about-content .content-left img{
+           height: 400px;
+           width: 400px;
+           object-fit: cover;
+         
+       }
+
+       .max-width{
+           margin: 1px 1px solid crimson;
+           border: 1px solid crimson;
+           margin-left: 10px; 
+           margin-right: 10px;
+           border-radius: 25px;
+       }
+       .content-left{
+
+           display: flex;
+           
+
+
+       
+       }
+       .column-right{
+           /* background-color: rgba(220, 20, 60, 0.671); */
+           background: linear-gradient(to top right, #ff3399 37%, #ff99cc 100%);
+           
+           height:255px ;
+           margin-top: 45px;
+           padding-top: 40px;
+           width: 566px;
+           border-radius: 25px;
+           text-align: center;
+           /* color: rgb(255, 244, 244); */
+           color: #111;
+       }
+
+       .hr2{
+           color: #fff;
+       }
+       .text-about-me{
+           font-size:25px ;background: linear-gradient(to bottom right, #ccffff 39%, #ff99cc 100%);
+           margin-top: 40px;
+       }
+      
+       .words-me{
+           color: powderblue;
+       }
+       .logomap{
+           height: 15px;
+           width: 15px;
+
+       }
+
+
+       /* animation part */
+       video{
+        height: 70%;
+        width: 70%;
+        border-radius: 25px;
+     
+    }
+    .anime-box{ 
+        font-size: 50px;
+        margin-left: 250px;
+        justify-content: center;
+      
+    }
+    .anime-container{
+        justify-content: center;
+        /* display: flex; */
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .hra1{
+        color:deeppink;
+    }
+    
+
+
+    /* Our Services part */
+
+    .title{
+        position: relative;
+        font-family: 'Ubuntu',sans-serif;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 500;
+        margin-bottom: 60px;
+        padding-bottom: 20px;
+      
+
+    }
+     .title::before{
+        content: "";
+        position:absolute;
+        height: 3px;
+        width: 280px;
+        bottom: 0px;
+        left: 50%;
+        background-color: rgb(14, 8, 8);
+        transform:translateX(-50%);
+    
+    }
+      .title::after{
+        content: "What we Provide";
+        font-size: 20px;
+        color: crimson;
+        position:absolute;
+        /* height: 3px;
+        width: 180px; */
+        bottom: -7px;
+        left: 50%;
+        background-color: #fff;
+        transform:translateX(-50%);
+    
+    }
+    .flex-items-design{
+        display: flex;
+        justify-content: center;
+    }
+    .provide-items{
+        padding: 0px 0px;
+        height: 250px;width: 350px;
+        border: 1px solid crimson;
+        margin: 50px;
+        font-size: 20px;
+        
+        object-fit: fill;
+        overflow: hidden;
+        border-radius: 15px;
+      
+       
+    }
+    .txtitemweb{
+       z-index: 1;
+       font-family: 'Roboto',sans-serif;
+       margin-left: 10px;
+       color: crimson;
+       
+        
+      
+    }
+    .webde{
+        filter: blur(2px);
+        object-fit: cover;
+        height: 252px;
+        width:352px;
+    
+    }
+   .webde:hover{
+       cursor:grab;   
+       
+   }
+  .hs1{
+    color: crimson;
+  }
+.items-web:hover{
+    background-color: #d2ddddf5;
+    transition: 0.5s ease;
+}
+
+/* footer part */
+
+footer{
+    background-color: rgb(1, 1, 3);
+    color: white;
+    justify-content: center;
+    
+  display: flex;
+    left: 50%;
+    height:70px;
+    font-size: 20px;
+    font-family: 'Roboto';
+   
+}
+    .cont{
+         display: flex;
+         align-items: center;
+    }
+    .tx{
+        display: flex;
+    }
+    .api{
+        color: crimson;
+    }
+    @media screen and (max-width:417px)and {
+       footer{ 
+           font-size: 13px;
+       }
+    }
+    @media screen and (max-width:552px)and (min-width:440px) {
+       footer{ 
+           font-size: 16px;
+       }
+    }@media screen and (max-width:440px)and (min-width:418px) {
+       footer{ 
+           font-size: 15px;
+       }
+    }
+    @media screen and (max-width:417px)and (min-width:323px) {
+       footer{ 
+           font-size: 12px;
+       }
+    }
+    @media screen and (max-width:323px)and (min-width:0px) {
+        footer{ 
+            font-size: 8px;
+        }
+     }
+
+
+
+    /* responsiveness  of header*/
+
+
+@media screen and (max-width:810px)and (min-width:540px) {
+    .portfoliotxt{
+        font-size: 250%;
+  
+    }
+  
+      }
+  
+      @media screen and (max-width:560px)and (min-width:0px) {
+          .portfoliotxt{
+              font-size: 250%;
+              justify-content: center;
+  
+          }
+          .navbar{
+              display: block;
+             text-align: center;
+          }
+          .navcontent{
+              display: block;
+          }
+        .navigation{
+          display: block;
+           
+         }
+         .contact-me{
+             font-size: 15px;
+             margin-right: 0;
+             margin-bottom: 5px;
+         }
+            }
+            @media screen and (max-width:411px)and (min-width:0px) {
+              .portfoliotxt{
+                  font-size: 150%;
+                  text-align: center;
+              }
+               }
+
+
+               /* who i am  responsiveness */
+               @media screen and (max-width:997px)and (min-width:440px) {
+                .content-left{ 
+                   display: block;
+                 }
+                     .border-img{
+                                 text-align: center;
+                     }   
+                     .column-right{
+                         margin: auto;
+                         margin-bottom: 15px;
+                       } 
+                 }
+                 @media screen and (max-width:591px)and (min-width:393px) {
+                     .content-left{ 
+                   display: block;
+                 }
+                     .column-right{
+         
+                         height:155px ;
+                     
+                          width: 366px;
+                         margin: auto;
+                         margin-bottom: 15px;
+                       } 
+                     img{
+                         height: 7px;
+                         width: 7px;
+                         margin-top: 23px;
+                         padding-top: 20px;
+         
+                     }
+                     .text-about-me{
+                         font-size: 18px;
+                     }
+                     .words-me{
+                         font-size: 13px;
+                     }
+                 }
+         
+                 @media screen and (max-width:392px)and (min-width:293px) {
+                     .content-left{ 
+                   display: block;
+                 }
+                 .aboutme .max-width .about-content .content-left img{
+                     height: 200px;
+                     width: 200px;
+                 }
+                 .border-img{
+                                 text-align: center;
+                                 top: 25px;
+                     }  
+                     .max-width{
+                         height: 150%;
+                     }
+                     .column-right{
+         
+                         height:127px ;
+                     
+                          width: 219px;
+                         margin: auto;
+                         margin-bottom: 13px;
+                         padding-top: 8px;
+                       } 
+                     img{
+                        
+                         margin-top: 12px;
+                         padding-top: 10px;
+         
+                     }
+                     .text-about-me{
+                         font-size: 13px;
+                     }
+                     .words-me{
+                         font-size: 11px;
+                     }
+                 }
+                 @media screen and (max-width:392px)and (min-width:293px) {
+                    .content-left{ 
+                                    content: "not suitable for your device";
+                    }
+                }
+         
+                /* animation responsive */
+  
+                @media screen and (max-width:997px)and (min-width:240px) {
+            
+            
+                    .anime-box{
+                          margin: auto;
+                         
+                          
+         
+                       }
+                       
+                        @media screen and (max-width:997px)and (min-width:240px) {
+                       .an{
+                            margin: auto; 
+                           height: 350px;
+                           width: 250px;
+                           margin-left: 0px;
+                           position: absolute;
+                           left: 55px;
+         
+                       } 
+                     } 
+                 
+                     /* what i provide responsive */
+                    }
+                    @media screen {
+                        .webde{
+                            width: 100%;
+                            
+                        }
+                        
+                    }
+                    @media screen and (max-width:912px) {
+                      .flex-items-design{
+                          flex-direction: column;
+                          align-items: center;
+                          margin: auto;
+                       
+              
+                        }
+                        
+                    }
